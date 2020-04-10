@@ -1,0 +1,11 @@
+b,b,o,b,x,b,b,b,b,True
+x,b,o,b,x,b,b,o,b,True
+x,x,o,b,x,b,o,o,b,True
+x,x,o,o,x,b,o,o,x,True
+x,b,b,b,o,b,b,b,b,True
+x,b,x,b,o,b,b,b,o,True
+x,x,x,b,o,b,o,b,o,True
+x,b,b,b,o,b,b,b,b,True
+x,b,b,x,o,b,o,b,b,True
+x,o,x,x,o,b,o,b,b,True
+x,o,x,x,o,x,o,b,o,False

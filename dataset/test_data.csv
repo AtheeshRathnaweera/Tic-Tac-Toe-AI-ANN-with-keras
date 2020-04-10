@@ -1,0 +1,7 @@
+TL,TM,TR,ML,MM,MR,BL,BM,BR,target
+x,b,b,o,x,o,b,b,x,True
+x,b,b,o,x,b,o,b,x,True
+x,b,b,o,x,b,b,o,x,True
+x,b,o,o,x,b,b,b,x,True
+x,b,o,b,x,b,o,b,x,True
+x,o,b,o,x,b,b,b,x,True
