@@ -1,13 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="02487f8c-32dd-4c12-aea7-8485713cd617" name="Default Changelist" comment="" />
+    <list default="true" id="02487f8c-32dd-4c12-aea7-8485713cd617" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/collected-data.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/test_data.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/tic-tac-toe.csv" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/tic-tac-toe.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/collectdata.py" beforeDir="false" afterPath="$PROJECT_DIR$/source/dataprocessor.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/createmodel.py" beforeDir="false" afterPath="$PROJECT_DIR$/source/createmodel.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/gameui.py" beforeDir="false" afterPath="$PROJECT_DIR$/source/gameui.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/source/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/saved_model/saved_model.pb" beforeDir="false" afterPath="$PROJECT_DIR$/source/saved_model/saved_model.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/saved_model/variables/variables.data-00000-of-00001" beforeDir="false" afterPath="$PROJECT_DIR$/source/saved_model/variables/variables.data-00000-of-00001" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/saved_model/variables/variables.index" beforeDir="false" afterPath="$PROJECT_DIR$/source/saved_model/variables/variables.index" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1aFVnL5w8sWEo6o1So0xYz0iSGm" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -15,15 +32,16 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/source/gameui.py" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PythonContentEntriesConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\Python Projects\tictactoe\dataset" />
-      <recent name="E:\Python Projects\tictactoe\source" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Python Projects\tictactoe\dataset" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Python Projects\tictactoe\source" />
       <recent name="E:\Python Projects\tictactoe\dataset" />
     </key>
   </component>
@@ -68,45 +86,45 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="361" y="71" key="#Notifications/0.0.1536.824@0.0.1536.824" timestamp="1586425159565" />
-    <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1586515917801">
+    <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1586617934038">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1586515917801" />
-    <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1586515764129">
+    <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1586617934038" />
+    <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1586617446682">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1586515764129" />
-    <state x="548" y="167" key="FileChooserDialogImpl" timestamp="1586515915396">
+    <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1586617446682" />
+    <state x="548" y="167" key="FileChooserDialogImpl" timestamp="1586617931685">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="548" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1586515915396" />
-    <state width="1515" height="210" key="GridCell.Tab.0.bottom" timestamp="1586516355470">
+    <state x="548" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1586617931685" />
+    <state width="1515" height="210" key="GridCell.Tab.0.bottom" timestamp="1586619097784">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1586516355470" />
-    <state width="1515" height="210" key="GridCell.Tab.0.center" timestamp="1586516355470">
+    <state width="1515" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1586619097784" />
+    <state width="1515" height="210" key="GridCell.Tab.0.center" timestamp="1586619097784">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1586516355470" />
-    <state width="1515" height="210" key="GridCell.Tab.0.left" timestamp="1586516355470">
+    <state width="1515" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1586619097784" />
+    <state width="1515" height="210" key="GridCell.Tab.0.left" timestamp="1586619097784">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1586516355470" />
-    <state width="1515" height="210" key="GridCell.Tab.0.right" timestamp="1586516355470">
+    <state width="1515" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1586619097784" />
+    <state width="1515" height="210" key="GridCell.Tab.0.right" timestamp="1586619097784">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1586516355470" />
+    <state width="1515" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1586619097784" />
     <state x="277" y="55" key="SettingsEditor" timestamp="1586332731844">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="277" y="55" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1586332731844" />
-    <state x="465" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1586504662069">
+    <state x="465" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1586633599772">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="465" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1586504662069" />
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1586337461591">
+    <state x="465" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1586633599772" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1586596600866">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1586337461591" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1586596600866" />
   </component>
 </project>

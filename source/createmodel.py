@@ -5,6 +5,7 @@ import pandas as pd
 import sklearn
 from sklearn import linear_model, preprocessing
 import dataset
+import csvactions
 
 import os
 
@@ -17,8 +18,7 @@ class CreateModel:
         print("create model started.")
 
     def main(self):
-        # data_frame = self.process_data("../dataset/tic-tac-toe.csv")
-        data_frame = self.process_data("../dataset/test_data.csv")
+        data_frame = self.process_data("../dataset/tic-tac-toe.csv")
         model = self.__create_the_model()
         self.__train_and_save(model, data_frame)
 
@@ -30,7 +30,7 @@ class CreateModel:
         # get the remaining data as feeds to the model
         feeds = data_frame
 
-        for n in range(5):
+        for n in range(4):
             # train_df, test_df, train_target_df, test_target_df = sklearn.model_selection.train_test_split(feeds,
             #                                                                                               results,
             #                                                                                               test_size=0.1)
@@ -57,7 +57,9 @@ class CreateModel:
 
     def process_data(self, file_path):
         # read the data file
-        data_frame = pd.read_csv(file_path)
+        columns = ['TL', 'TM', 'TR', 'ML', 'MM', 'MR', 'BL', 'BM', 'BR', 'target']
+
+        data_frame = csvactions.CSVactions.read_a_csv(file_path, columns)
 
         data_frame['TL'] = pd.Categorical(data_frame['TL'])
         data_frame['TL'] = data_frame.TL.cat.codes
@@ -88,4 +90,7 @@ class CreateModel:
     def evaluate_the_model(self, model, test_data, test_results):
         test_loss, test_acc = model.evaluate(test_data, test_results, verbose=2)
         print('\nTest accuracy:', test_acc)
+
+
+CreateModel().main()
 

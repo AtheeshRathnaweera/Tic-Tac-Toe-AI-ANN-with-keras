@@ -2,7 +2,7 @@ import tkinter as tk
 from tkinter import *
 import tensorflow as tf
 import numpy as np
-import collectdata
+import dataprocessor
 
 
 class GameUi:
@@ -35,16 +35,16 @@ class GameUi:
             self.game_over(result)
             return
 
-        # add the previous move
-        if computers_previous_move is not None:
-            self.update_the_computers_moves_list(computers_previous_move, True)
-
         if not blank_positions:
             # no spaces left, game has  drawn
             print("computer s correct move : ", computers_previous_move)
             self.update_the_computers_moves_list(computers_previous_move, True)
-            self.draw_game()
+            self.game_over(10)
             return
+
+        # add the previous move
+        if computers_previous_move is not None:
+            self.update_the_computers_moves_list(computers_previous_move, True)
 
         output = self.find_the_next_move(values_list, blank_positions)
         print("next move : ", output)
@@ -62,6 +62,7 @@ class GameUi:
         computers_previous_move = output
 
     def update_the_computers_moves_list(self, move, status):
+        print("horaa : ", move)
         move.append(status)
         global computers_moves
         computers_moves.append(move)
@@ -75,14 +76,12 @@ class GameUi:
         winner_msg = ''
         if winner == 1:
             winner_msg = 'You Won!'
-        else:
+        elif winner == 2:
             winner_msg = 'Computer Won!'
+        else:
+            winner_msg = 'Match Drawn!'
 
         status_label['text'] = winner_msg
-        restart_btn['state'] = 'normal'
-
-    def draw_game(self):
-        status_label['text'] = 'Game Drawn'
         restart_btn['state'] = 'normal'
 
     def check_the_winner(self, current_values_list):
@@ -92,8 +91,6 @@ class GameUi:
             if 0 != current_values_list[position[0]] == current_values_list[position[1]] == current_values_list[position[2]]:
                 print("All the three values are equal")
                 return current_values_list[position[0]]
-            else:
-                print("All the three values are not equal")
 
     def update_the_board(self, values_list):
         for index, value in enumerate(values_list):
@@ -118,6 +115,7 @@ class GameUi:
             else:
                 print("false")
                 if index == len(blank_positions)-1:
+                    print("nothing from nn")
                     return values_list
                 values_list[pos] = 0
 
@@ -210,7 +208,7 @@ class GameUi:
         global game_no, computers_moves, computers_previous_move
 
         # save the moves for training
-        collectdata.CollectData(computers_moves)
+        dataprocessor.DataProcessor(computers_moves)
 
         # remove all items from the list
         computers_moves.clear()

@@ -1,10 +1,11 @@
-import createmodel as cm
+
 import tensorflow as tf
 import sklearn
 import numpy as np
 
+
 # create the model
-cm.CreateModel().main()
+# cm.CreateModel().main()
 
 # saved_model = tf.keras.models.load_model('saved_model')
 # print(saved_model.summary())
@@ -40,3 +41,6 @@ cm.CreateModel().main()
 #
 # for n in range(10):
 #     print("\nprediction : ", class_names[np.argmax(single_prediction[n])], " real : ", class_names[test_target_df[n]])
+
+# dataprocessor.DataProcessor.update_the_main_csv()
+
